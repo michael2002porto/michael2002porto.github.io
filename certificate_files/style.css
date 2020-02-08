@@ -1,0 +1,524 @@
+body
+{
+    font-family: montserrat;
+    transition: background-color .5s;
+}
+
+.wrap-container
+{
+    overflow: hidden;
+}
+
+.padding-margin-my-portofolio
+{
+    padding-left: 25px;
+    padding-right: 0px;
+}
+
+
+.row-padding
+{
+    padding: 50px 0px;
+}
+
+.no-margin
+{
+    margin: 0px;
+}
+
+.no-padding
+{
+    padding:  0px;
+}
+
+.heading
+{
+    background: #404040;
+    height: 70px;
+    width: 100%;
+    color: white
+}
+
+.title1
+{
+    font-family: Times New Romans;
+}
+
+.home-tst
+{
+    /* margin: 0px 0px; */
+    margin-top: 100px;
+}
+/*
+.img-1
+{
+        display: block;
+        max-width: auto;
+        width: 100%;
+        height: 100%;
+
+}
+*/
+
+.home-tst h1 {
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-size: 33px;
+    margin-bottom: 1px;
+
+}
+
+.home-tst h2 {
+    margin-top: 5px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.home-tst h4 {
+    font-weight: 200;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin: 20px 5px;
+}
+
+a.btn {
+    background: #5BFCB6;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 7px 21px;
+}
+
+.btn:hover
+{
+    background: #85F9C7
+}
+
+.showcase {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.showcase img {
+    width: 95%
+}
+
+.showcase .full{
+    width: 100%;
+}
+
+.showcase.no-padding{
+    padding:0px;
+}
+
+
+h5.quotes 
+{
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: #404040;
+    margin-top: 10px;
+}
+
+.margin-p
+{
+    margin-top: 10px;
+}
+
+h6 .author
+{
+    letter-spacing: 2px;
+    font-weight: 450px;
+    margin-top: 25px;
+}
+
+.no-margin
+{
+    margin: 0px;
+}
+
+.tech
+{
+    max-width: 150px;
+    width: 100%
+    height: auto;
+}
+
+.tech-margin h5
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.tech-margin p
+{
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px)
+{
+    h5.quotes 
+    {
+        
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 2px;
+        color: #404040;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    h6 .author
+    {
+        letter-spacing: 2px;
+        font-weight: 100px;
+        margin-top: 45px;
+        font-size: 4px;
+    }
+
+    .home-tst h4
+    {
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+
+    .center
+    {
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+    .flip
+    {
+        flex-direction: column-reverse;
+        text-align: justify;
+    }
+
+    .padding-margin-my-portofolio
+    {
+        margin-top: 25px;
+        padding-left:  30px;
+        padding-right: 30px;
+    }
+
+    .btn
+    {
+        align-items: center;
+    }
+}
+
+.border-line
+{
+    position: relative;
+}
+
+.border-line::before
+{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    background-color: #d0d0d0;
+    right: -500px;
+    left: -500px;
+    top: 50%;
+}
+
+.card-padding
+{
+    padding: 30px;
+}
+
+.card-floating
+{
+    border-top: 5px solid #47efa6;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+h3.card-title.no-margin {
+    font-weight: 300;
+}
+
+.spacing
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/**/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+a.carousel-control-next.tes
+{
+    padding-top: 35%;
+}
+
+a.carousel-control-prev.tes
+{
+    padding-top: 35%;
+}
+
+.maximg
+{
+    max-width: 2000px;
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 1s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#text-nav
+{
+   position: absolute;
+   display: block;
+   opacity: 0;
+   color: white;
+   transition: opacity 0.2s;
+}
+
+#content
+{
+    opacity: 1;
+}
+
+/**/
+
+.space
+{
+    padding-top: 10px;
+}
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+
+.footer
+{
+    background: #404040;
+    height: 30px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    padding: 3px 0px;
+}
+
+/*Images on Click*/
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+#summary
+{
+    display: flex;
+    flex-direction: column;
+}
+
+li.about
+{
+    font-size: 14px;
+    padding: 3px;
+}
+
+ul.about
+{
+
+    max-width: 500px;
+    text-align: left;
+    margin: 0 auto;
+    word-spacing: 3px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+audio
+{
+    width:100%;
+    max-width: 700px;
+}
+
+@media (max-width: 720px) {
+    .tablinks
+    {
+        display: inline-block;
+        width: 100%;
+    }
+}

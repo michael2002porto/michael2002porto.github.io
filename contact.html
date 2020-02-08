@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Portofolio Michael Natanael</title>
+	<link rel="stylesheet" type="text/css" href="./contact_files/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./contact_files/style.css">
+	<script type="text/javascript">
+		function myFunction() {
+		    var element = document.getElementById("more");
+		    var ww = document.body.clientWidth;
+		    if(ww<700){
+		   		 element.classList.add("text-center");
+			}
+		}
+
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "100%";
+		    document.getElementById("content").style.opacity = "0";
+		    document.getElementById("content").style.overflowY = "hidden";
+		 	document.getElementById("content").style.height = "500px";
+		   // document.getElementById("text-nav").style.transition = "2s";
+		    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		    document.getElementById("text-nav").style.opacity = "1";
+		    document.getElementById("text-nav").style.style.fontSize = "20px";
+		   	
+		}
+
+		function closeNav() {
+			document.getElementById("text-nav").style.opacity ="0";		    
+		    document.getElementById("mySidenav").style.width = "0%";
+		    document.getElementById("content").style.opacity = "1";
+		    document.getElementById("content").style.height = "auto";
+		    document.body.style.backgroundColor = "white";
+		}
+	</script>
+</head>
+<body onload="myFunction();">
+	
+	<div class="wrap-container" id="content">
+		<div class="container">
+
+		    <nav class="navbar navbar-expand-sm navbar-light">
+		        <a href="index.html" class="navbar-brand">Michael2002 Portofolio</a>
+		        <div class="navbar-collapse">
+		          <ul class="navbar-nav ml-auto">
+		            <li><a href="index.html" class="nav-link">Home</a></li>
+					<li><a href="certificate.html" class="nav-link">Certificate</a></li>
+					<li><a href="portofolio.html" class="nav-link">Portofolio</a></li>
+					<li><a href="skill.html" class="nav-link">Skill</a></li>
+					<li><a href="about.html" class="nav-link">About</a></li>
+					<li><a href="contact.html" class="nav-link">Contact</a></li>
+		          </ul>
+		        </div>
+		    </nav>
+
+			<div class="row row-padding  text-center">
+				<div class="col-md-6 offset-md-3">
+					<h3>Contact</h3>
+					<p>Hello, I am Michael Natanael and you can find me right here</p>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="showcase no-padding">
+		<a href="https://github.com/mgportofolio" target="_blank">
+			<img class="full" src="./contact_files/github.jpg">
+		</a>
+	</div>
+
+	<div class="showcase no-padding">
+		<a href="https://mgportofolio.github.io/www.linkedin.com/in/michael-gunawan-mg211298" target="_blank">
+			<img class="full" src="./contact_files/linkedin.jpg">
+		</a>
+	</div>
+
+	<div class="showcase no-padding">
+		<a href="https://www.instagram.com/mgportofolio/" target="_blank">
+			<img class="full" src="./contact_files/ig.jpg">
+		</a>
+	</div>
+
+	<div class="showcase no-padding">
+		<a href="https://wa.me/082122493089" target="_blank">
+			<img class="full" src="./contact_files/WA.jpg">
+		</a>
+	</div>
+
+	<div class="showcase no-padding">
+		<a href="mailto:gunawan.michael20@gmail.com" target="_blank">
+			<img class="full" src="./contact_files/gmail.jpg">
+		</a>
+	</div>
+	
+
+<!--footer-->
+	<div class="footer text-center">
+		Copyright © 2020 Michael Natanael
+	</div>
+
+
+
+</body></html>
