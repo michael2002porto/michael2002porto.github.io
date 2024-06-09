@@ -14,9 +14,6 @@
 
 <body>
 	<!-- Grid row -->
-
-
-
 	<div class="container">
 		<!--Navbar-->
 		<nav class="navbar navbar-expand-sm navbar-light">
@@ -24,7 +21,18 @@
 			<div class="navbar-collapse">
 				<ul class="navbar-nav ml-auto">
 					<li><a href="index.html" class="nav-link">Home</a></li>
-					<li><a href="certificate.html" class="nav-link active">Certificate</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle active" href="certificate.html" id="navbarDropdown"
+							role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Certificate
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#internship">Internship</a>
+							<a class="dropdown-item" href="#competition">Competition</a>
+							<a class="dropdown-item" href="#training">Training</a>
+							<a class="dropdown-item" href="#certification">Certification</a>
+						</div>
+					</li>
 					<li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
 					<li><a href="skill.html" class="nav-link">Skill</a></li>
 					<!-- <li><a href="about.html" class="nav-link">About</a></li> -->
@@ -33,9 +41,9 @@
 			</div>
 		</nav>
 
-		<div class="row row-padding text-center">
+		<div class="row row-padding text-center" id="internship">
 			<div class="col-md-12 spacing">
-				<h2>Internships</h2>
+				<h2>Internship</h2>
 			</div>
 			<div class="container">
 				<div class="row row-padding text-center">
@@ -55,9 +63,9 @@
 			</div>
 		</div>
 
-		<div class="row row-padding text-center">
+		<div class="row row-padding text-center" id="competition">
 			<div class="col-md-12 spacing">
-				<h2>Competitions</h2>
+				<h2>Competition</h2>
 			</div>
 			<div class="container">
 				<div class="row row-padding text-center">
@@ -110,9 +118,9 @@
 			</div>
 		</div>
 
-		<div class="row row-padding text-center">
+		<div class="row row-padding text-center" id="training">
 			<div class="col-md-12 spacing">
-				<h2>Certificates</h2>
+				<h2>Training</h2>
 			</div>
 			<div class="container">
 				<div class="row row-padding text-center">
@@ -175,9 +183,9 @@
 			</div>
 		</div>
 
-		<div class="row row-padding text-center">
+		<div class="row row-padding text-center" id="certification">
 			<div class="col-md-12 spacing">
-				<h2>Certifications</h2>
+				<h2>Certification</h2>
 			</div>
 			<div class="container">
 				<div class="row row-padding text-center">
@@ -225,3 +233,6 @@
 </body>
 
 </html>
+
+<script src="./certificate_files/jquery.min.js.download"></script>
+<script src="./certificate_files/bootstrap.min.js.download"></script>

@@ -2,77 +2,88 @@
 <html>
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio Michael Natanael</title>
-  <link rel="stylesheet" type="text/css" href="./portofolio_files/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./portofolio_files/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portofolio Michael Natanael</title>
+	<link rel="stylesheet" type="text/css" href="./portofolio_files/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./portofolio_files/style.css">
 
 	<!-- Favicons -->
 	<link href="icon/Logo MN YouTube circle.png" rel="icon">
 
-  <script type="text/javascript">
-    function myFunction() {
-      var element = document.getElementById("more");
-      var ww = document.body.clientWidth;
-      if (ww < 700) {
-        element.classList.add("text-center");
-      }
-    }
+	<script type="text/javascript">
+		function myFunction() {
+			var element = document.getElementById("more");
+			var ww = document.body.clientWidth;
+			if (ww < 700) {
+				element.classList.add("text-center");
+			}
+		}
 
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "100%";
-      document.getElementById("content").style.opacity = "0";
-      document.getElementById("content").style.overflowY = "hidden";
-      document.getElementById("content").style.height = "100%";
-      // document.getElementById("text-nav").style.transition = "2s";
-      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-      document.getElementById("text-nav").style.opacity = "1";
-      document.getElementById("text-nav").style.style.fontSize = "20px";
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "100%";
+			document.getElementById("content").style.opacity = "0";
+			document.getElementById("content").style.overflowY = "hidden";
+			document.getElementById("content").style.height = "100%";
+			// document.getElementById("text-nav").style.transition = "2s";
+			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			document.getElementById("text-nav").style.opacity = "1";
+			document.getElementById("text-nav").style.style.fontSize = "20px";
 
-    }
+		}
 
-    function closeNav() {
-      document.getElementById("text-nav").style.opacity = "0";
-      document.getElementById("mySidenav").style.width = "0%";
-      document.getElementById("content").style.opacity = "1";
-      document.getElementById("content").style.height = "auto";
-      document.body.style.backgroundColor = "white";
-    }
-  </script>
+		function closeNav() {
+			document.getElementById("text-nav").style.opacity = "0";
+			document.getElementById("mySidenav").style.width = "0%";
+			document.getElementById("content").style.opacity = "1";
+			document.getElementById("content").style.height = "auto";
+			document.body.style.backgroundColor = "white";
+		}
+	</script>
 
-  <!--Script for carousel-->
-  <script src="./index_files/jquery.min.js.download"></script>
-  <script src="./index_files/popper.min.js.download"></script>
-  <script src="./index_files/bootstrap.min.js.download"></script>
+	<!--Script for carousel-->
+	<script src="./index_files/jquery.min.js.download"></script>
+	<script src="./index_files/popper.min.js.download"></script>
+	<script src="./index_files/bootstrap.min.js.download"></script>
 
 </head>
 
 <body onload="myFunction();" data-gr-c-s-loaded="true">
-  <!-- Grid row -->
+	<!-- Grid row -->
 
-  <div class="container">
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <a href="index.html" class="navbar-brand">Michael2002 Portfolio</a>
-      <div class="navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="certificate.html" class="nav-link">Certificate</a></li>
-          <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
-          <li><a href="skill.html" class="nav-link">Skill</a></li>
-          <!-- <li><a href="about.html" class="nav-link">About</a></li> -->
-          <li><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="row row-padding text-center">
-      <div class="col-md-12 spacing">
-        <h2>Programming Portofolio</h2>
-      </div>
+	<div class="container">
+		<!--Navbar-->
+		<nav class="navbar navbar-expand-sm navbar-light">
+			<a href="index.html" class="navbar-brand">Michael2002 Portfolio</a>
+			<div class="navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="certificate.html" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Certificate
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="certificate.html#internship">Internship</a>
+							<a class="dropdown-item" href="certificate.html#competition">Competition</a>
+							<a class="dropdown-item" href="certificate.html#training">Training</a>
+							<a class="dropdown-item" href="certificate.html#certification">Certification</a>
+						</div>
+					</li>
+					<li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+					<li><a href="skill.html" class="nav-link">Skill</a></li>
+					<!-- <li><a href="about.html" class="nav-link">About</a></li> -->
+					<li><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="row row-padding text-center">
+			<div class="col-md-12 spacing">
+				<h2>Programming Portofolio</h2>
+			</div>
 
-      <!--sidenav my certificate-->
-      <!-- <div id="mySidenav" class="sidenav">
+			<!--sidenav my certificate-->
+			<!-- <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <div class="wrap-container">
           <div id="text-nav">
@@ -171,21 +182,21 @@
         </div>
       </div> -->
 
-      <!--Content-->
-      <div id="content">
+			<!--Content-->
+			<div id="content">
 
-        <div class="col-md-6 offset-md-3">
-          <div class="card-body card-padding d-md-flex align-items-center">
-            <div class="ml-auto center">
-              <a href="https://michael2002porto.github.io/jago-nihongo/index.html" target="_blank">
-                <img class="img-fluid" src="./portofolio_files/jago_nihongo.jpeg">
-              </a>
-            </div>
-          </div>
-          <h5>Education Website for study Japanese language, hosting in Github</h5>
-        </div>
+				<div class="col-md-6 offset-md-3">
+					<div class="card-body card-padding d-md-flex align-items-center">
+						<div class="ml-auto center">
+							<a href="https://michael2002porto.github.io/jago-nihongo/index.html" target="_blank">
+								<img class="img-fluid" src="./portofolio_files/jago_nihongo.jpeg">
+							</a>
+						</div>
+					</div>
+					<h5>Education Website for study Japanese language, hosting in Github</h5>
+				</div>
 
-        <!-- <div class="col-md-8 offset-md-2 spacing">
+				<!-- <div class="col-md-8 offset-md-2 spacing">
           <div class="card-body card-padding d-md-flex align-items-center">
             <div class="ml-auto center">
               <a href="https://michael-natanael.000webhostapp.com/" target="_blank">
@@ -196,7 +207,7 @@
           <h5>Simple CRUD Database Website, hosting in Webhost</h5>
         </div> -->
 
-        <!-- <div class="col-md-6 offset-md-3">
+				<!-- <div class="col-md-6 offset-md-3">
           <div class="card-body card-padding d-md-flex align-items-center">
             <div class="ml-auto center">
               <span style="font-size:30px;cursor:pointer" onclick="openNav()">
@@ -209,279 +220,283 @@
           <h5>Application that give information about plant based on the camera shots to that plant</h5>
         </div> -->
 
-        <div class="col-md-8 offset-md-2 spacing">
-          <div class="card-body card-padding d-md-flex align-items-center">
-            <div class="ml-auto center">
-              <a href="https://future-id.blogspot.com/" target="_blank">
-                <img class="img-fluid" src="./portofolio_files/future-id.png">
-              </a>
-            </div>
-          </div>
-          <h5>Education Website about Future Technology, hosting in Blogger / Blogspot</h5>
-        </div>
+				<div class="col-md-8 offset-md-2 spacing">
+					<div class="card-body card-padding d-md-flex align-items-center">
+						<div class="ml-auto center">
+							<a href="https://future-id.blogspot.com/" target="_blank">
+								<img class="img-fluid" src="./portofolio_files/future-id.png">
+							</a>
+						</div>
+					</div>
+					<h5>Education Website about Future Technology, hosting in Blogger / Blogspot</h5>
+				</div>
 
-        <div class="col-md-8 offset-md-2 spacing">
-          <div class="card-body card-padding d-md-flex align-items-center">
-            <div class="ml-auto center">
-              <a href="index.html" target="_blank">
-                <img class="img-thumbnail" src="./portofolio_files/porto.png">
-              </a>
-            </div>
-          </div>
-          <h5>Portfolio Website, hosting in Github</h5>
-        </div>
+				<div class="col-md-8 offset-md-2 spacing">
+					<div class="card-body card-padding d-md-flex align-items-center">
+						<div class="ml-auto center">
+							<a href="index.html" target="_blank">
+								<img class="img-thumbnail" src="./portofolio_files/porto.png">
+							</a>
+						</div>
+					</div>
+					<h5>Portfolio Website, hosting in Github</h5>
+				</div>
 
-      </div>
+			</div>
 
-      <div class="container">
-        <div class="row row-padding text-center">
-          <div class="col-md-12 spacing">
-            <h2>Design Portofolio</h2>
-          </div>
-          <div class="gallery" id="gallery">
+			<div class="container">
+				<div class="row row-padding text-center">
+					<div class="col-md-12 spacing">
+						<h2>Design Portofolio</h2>
+					</div>
+					<div class="gallery" id="gallery">
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-              <img class="img-fluid" src="./portofolio_files/logo1.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 2">
+							<img class="img-fluid" src="./portofolio_files/logo1.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/logo2.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/logo2.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/logo3.jpg" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/logo3.jpg" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-              <img class="img-fluid" src="./portofolio_files/ppt.jpg" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 2">
+							<img class="img-fluid" src="./portofolio_files/ppt.jpg" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-              <img class="img-fluid" src="./portofolio_files/bc.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 2">
+							<img class="img-fluid" src="./portofolio_files/bc.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/lument.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
-            <!-- ketiga -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/lument.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
+						<!-- ketiga -->
 
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/packaging.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/packaging.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/atom.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/atom.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-              <img class="img-fluid" src="./portofolio_files/baca tulis.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 2">
+							<img class="img-fluid" src="./portofolio_files/baca tulis.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/binary.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/binary.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-              <img class="img-fluid" src="./portofolio_files/buku.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 2">
+							<img class="img-fluid" src="./portofolio_files/buku.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-              <img class="img-fluid" src="./portofolio_files/cangkir.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 2">
+							<img class="img-fluid" src="./portofolio_files/cangkir.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-              <img class="img-fluid" src="./portofolio_files/coin.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 2">
+							<img class="img-fluid" src="./portofolio_files/coin.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/digital.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/digital.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/dimsum paradise.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/dimsum paradise.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-              <img class="img-fluid" src="./portofolio_files/internet.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 2">
+							<img class="img-fluid" src="./portofolio_files/internet.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-              <img class="img-fluid" src="./portofolio_files/ion.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 2">
+							<img class="img-fluid" src="./portofolio_files/ion.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/statistic.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/sija.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/statistic.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/sija.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/kupon anak hijau.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/kupon anak hijau.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/kupon together we are strong.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/kupon together we are strong.png"
+								alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/bible.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/bible.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/bible verse.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/bible verse.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/mouse.jpg" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/mouse.jpg" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/cecak 2.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/cecak 2.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/super cecak.jpg" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/super cecak.jpg" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/planet x.jpg" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/planet x.jpg" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/hemat listrik - Michael Natanael.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/hemat listrik - Michael Natanael.png"
+								alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/Michael Natanael - mie goreng instan.png"
-                alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/Michael Natanael - mie goreng instan.png"
+								alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/Pohon Karier SMKN 26.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/Pohon Karier SMKN 26.png"
+								alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/Desain ID Card - Michael Natanael.png"
-                alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/Desain ID Card - Michael Natanael.png"
+								alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/Desain Mug - Michael Natanael.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/Desain Mug - Michael Natanael.png"
+								alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/smk bisa.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/smk bisa.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/chef.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/chef.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/covid - 19.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/covid - 19.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/infrared helmet.jpg" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/infrared helmet.jpg" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/podomoro 1.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/podomoro 1.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-              <img class="img-fluid" src="./portofolio_files/tixai.png" alt="Card image cap">
-            </div>
-            <!-- Grid column -->
+						<!-- Grid column -->
+						<div class="mb-3 pics animation all 1">
+							<img class="img-fluid" src="./portofolio_files/tixai.png" alt="Card image cap">
+						</div>
+						<!-- Grid column -->
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Grid row -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Grid row -->
 
-  <!--footer-->
-  <div class="footer text-center">
-    Copyright © 2024 Michael Natanael
-  </div>
+	<!--footer-->
+	<div class="footer text-center">
+		Copyright © 2024 Michael Natanael
+	</div>
 
 </body>
 
