@@ -1,54 +1,46 @@
-body
-{
+body {
     font-family: montserrat;
     transition: background-color .5s;
 }
 
-.wrap-container
-{
+.wrap-container {
     overflow: hidden;
 }
 
-.padding-margin-my-portofolio
-{
+.padding-margin-my-portofolio {
     padding-left: 25px;
     padding-right: 0px;
 }
 
 
-.row-padding
-{
+.row-padding {
     padding: 50px 0px;
 }
 
-.no-margin
-{
+.no-margin {
     margin: 0px;
 }
 
-.no-padding
-{
-    padding:  0px;
+.no-padding {
+    padding: 0px;
 }
 
-.heading
-{
+.heading {
     background: #404040;
     height: 70px;
     width: 100%;
     color: white
 }
 
-.title1
-{
+.title1 {
     font-family: Times New Romans;
 }
 
-.home-tst
-{
+.home-tst {
     /* margin: 0px 0px; */
     margin-top: 100px;
 }
+
 /*
 .img-1
 {
@@ -92,9 +84,12 @@ a.btn {
     padding: 7px 21px;
 }
 
-.btn:hover
-{
+.btn:hover {
     background: #85F9C7
+}
+
+.showcase-container {
+    margin: 0 20% 0 20%;
 }
 
 .showcase {
@@ -106,17 +101,16 @@ a.btn {
     width: 95%
 }
 
-.showcase .full{
+.showcase .full {
     width: 100%;
 }
 
-.showcase.no-padding{
-    padding:0px;
+.showcase.no-padding {
+    padding: 0px;
 }
 
 
-h5.quotes 
-{
+h5.quotes {
     font-size: 23px;
     font-weight: 300;
     line-height: 35px;
@@ -125,46 +119,37 @@ h5.quotes
     margin-top: 10px;
 }
 
-.margin-p
-{
+.margin-p {
     margin-top: 10px;
 }
 
-h6 .author
-{
+h6 .author {
     letter-spacing: 2px;
     font-weight: 450px;
     margin-top: 25px;
 }
 
-.no-margin
-{
+.no-margin {
     margin: 0px;
 }
 
-.tech
-{
+.tech {
     max-width: 150px;
-    width: 100%
+    width: 100%;
     height: auto;
 }
 
-.tech-margin h5
-{
+.tech-margin h5 {
     padding-top: 15px;
     padding-bottom: 10px;
 }
 
-.tech-margin p
-{
+.tech-margin p {
     padding-bottom: 15px;
 }
 
-@media only screen and (max-width: 768px)
-{
-    h5.quotes 
-    {
-        
+@media only screen and (max-width: 768px) {
+    h5.quotes {
         font-weight: 300;
         line-height: 25px;
         letter-spacing: 2px;
@@ -173,55 +158,56 @@ h6 .author
         font-size: 12px;
     }
 
-    h6 .author
-    {
+    h6 .author {
         letter-spacing: 2px;
         font-weight: 100px;
         margin-top: 45px;
         font-size: 4px;
     }
 
-    .home-tst h4
-    {
+    .home-tst h4 {
         letter-spacing: 1px;
         line-height: 20px;
     }
 
-    .center
-    {
+    .center {
         margin-top: 50px;
         align-items: center;
     }
 
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
 
-    .flip
-    {
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .flip {
         flex-direction: column-reverse;
         text-align: justify;
     }
 
-    .padding-margin-my-portofolio
-    {
+    .padding-margin-my-portofolio {
         margin-top: 25px;
-        padding-left:  30px;
+        padding-left: 30px;
         padding-right: 30px;
     }
 
-    .btn
-    {
+    .btn {
         align-items: center;
+    }
+
+    .showcase-container {
+        margin: 5%;
     }
 }
 
-.border-line
-{
+.border-line {
     position: relative;
 }
 
-.border-line::before
-{
+.border-line::before {
     content: '';
     position: absolute;
     display: block;
@@ -232,23 +218,20 @@ h6 .author
     top: 50%;
 }
 
-.card-padding
-{
+.card-padding {
     padding: 30px;
 }
 
-.card-floating
-{
+.card-floating {
     border-top: 5px solid #47efa6;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 h3.card-title.no-margin {
     font-weight: 300;
 }
 
-.spacing
-{
+.spacing {
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -268,18 +251,15 @@ h3.card-title.no-margin {
 
 }
 
-a.carousel-control-next.tes
-{
+a.carousel-control-next.tes {
     padding-top: 35%;
 }
 
-a.carousel-control-prev.tes
-{
+a.carousel-control-prev.tes {
     padding-top: 35%;
 }
 
-.maximg
-{
+.maximg {
     max-width: 2000px;
     width: 100%;
     height: auto;
@@ -307,56 +287,57 @@ a.carousel-control-prev.tes
     margin-left: 50px;
 }
 
-#text-nav
-{
-   position: absolute;
-   display: block;
-   opacity: 0;
-   color: white;
-   transition: opacity 0.2s;
+#text-nav {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    color: white;
+    transition: opacity 0.2s;
 }
 
-#content
-{
+#content {
     opacity: 1;
 }
 
 /**/
 
-.space
-{
+.space {
     padding-top: 10px;
 }
 
 .gallery {
--webkit-column-count: 3;
--moz-column-count: 3;
-column-count: 3;
--webkit-column-width: 33%;
--moz-column-width: 33%;
-column-width: 33%; }
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
+
 .gallery .pics {
--webkit-transition: all 350ms ease;
-transition: all 350ms ease; }
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
 .gallery .animation {
--webkit-transform: scale(1);
--ms-transform: scale(1);
-transform: scale(1); }
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
 
 @media (max-width: 450px) {
-.gallery {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
--webkit-column-width: 100%;
--moz-column-width: 100%;
-column-width: 100%;
-}
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
 }
 
 
-.footer
-{
+.footer {
     background: #404040;
     height: 30px;
     width: 100%;
@@ -372,21 +353,32 @@ column-width: 100%;
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {
+    opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
@@ -410,7 +402,8 @@ column-width: 100%;
 }
 
 /* Add Animation */
-.modal-content, #caption {    
+.modal-content,
+#caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -418,13 +411,23 @@ column-width: 100%;
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
 }
 
 /* The Close Button */
@@ -446,26 +449,23 @@ column-width: 100%;
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
     }
 }
 
-#summary
-{
+#summary {
     display: flex;
     flex-direction: column;
 }
 
-li.about
-{
+li.about {
     font-size: 14px;
     padding: 3px;
 }
 
-ul.about
-{
+ul.about {
 
     max-width: 500px;
     text-align: left;
@@ -475,49 +475,47 @@ ul.about
 
 /* Style the tab */
 .tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+    background-color: #ccc;
 }
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
 
-audio
-{
-    width:100%;
+audio {
+    width: 100%;
     max-width: 700px;
 }
 
 @media (max-width: 720px) {
-    .tablinks
-    {
+    .tablinks {
         display: inline-block;
         width: 100%;
     }
