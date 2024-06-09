@@ -149,6 +149,10 @@ h6 .author
     height: auto;
 }
 
+.tech-margin {
+    padding-bottom: 15px;
+}
+
 .tech-margin h5
 {
     padding-top: 15px;
