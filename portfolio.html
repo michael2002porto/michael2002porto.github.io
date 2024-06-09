@@ -8,7 +8,18 @@
   <link rel="stylesheet" type="text/css" href="./portofolio_files/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./portofolio_files/style.css">
 
+	<!-- Favicons -->
+	<link href="icon/Logo MN YouTube circle.png" rel="icon">
+
   <script type="text/javascript">
+    function myFunction() {
+      var element = document.getElementById("more");
+      var ww = document.body.clientWidth;
+      if (ww < 700) {
+        element.classList.add("text-center");
+      }
+    }
+
     function openNav() {
       document.getElementById("mySidenav").style.width = "100%";
       document.getElementById("content").style.opacity = "0";
@@ -61,7 +72,7 @@
       </div>
 
       <!--sidenav my certificate-->
-      <div id="mySidenav" class="sidenav">
+      <!-- <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <div class="wrap-container">
           <div id="text-nav">
@@ -158,7 +169,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!--Content-->
       <div id="content">
@@ -166,15 +177,15 @@
         <div class="col-md-6 offset-md-3">
           <div class="card-body card-padding d-md-flex align-items-center">
             <div class="ml-auto center">
-              <a href="https://jagonihongo.000webhostapp.com/" target="_blank">
+              <a href="https://michael2002porto.github.io/jago-nihongo/index.html" target="_blank">
                 <img class="img-fluid" src="./portofolio_files/jago_nihongo.jpeg">
               </a>
             </div>
           </div>
-          <h5>Education Website for study Japanese language, hosting in Webhost</h5>
+          <h5>Education Website for study Japanese language, hosting in Github</h5>
         </div>
 
-        <div class="col-md-8 offset-md-2 spacing">
+        <!-- <div class="col-md-8 offset-md-2 spacing">
           <div class="card-body card-padding d-md-flex align-items-center">
             <div class="ml-auto center">
               <a href="https://michael-natanael.000webhostapp.com/" target="_blank">
@@ -183,9 +194,9 @@
             </div>
           </div>
           <h5>Simple CRUD Database Website, hosting in Webhost</h5>
-        </div>
+        </div> -->
 
-        <div class="col-md-6 offset-md-3">
+        <!-- <div class="col-md-6 offset-md-3">
           <div class="card-body card-padding d-md-flex align-items-center">
             <div class="ml-auto center">
               <span style="font-size:30px;cursor:pointer" onclick="openNav()">
@@ -196,7 +207,7 @@
             </div>
           </div>
           <h5>Application that give information about plant based on the camera shots to that plant</h5>
-        </div>
+        </div> -->
 
         <div class="col-md-8 offset-md-2 spacing">
           <div class="card-body card-padding d-md-flex align-items-center">
@@ -217,7 +228,7 @@
               </a>
             </div>
           </div>
-          <h5>Portofolio Website, hosting in Github</h5>
+          <h5>Portfolio Website, hosting in Github</h5>
         </div>
 
       </div>
