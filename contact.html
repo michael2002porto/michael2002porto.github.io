@@ -1,105 +1,118 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portofolio Michael Natanael</title>
 	<link rel="stylesheet" type="text/css" href="./contact_files/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./contact_files/style.css">
 	<script type="text/javascript">
 		function myFunction() {
-		    var element = document.getElementById("more");
-		    var ww = document.body.clientWidth;
-		    if(ww<700){
-		   		 element.classList.add("text-center");
+			var element = document.getElementById("more");
+			var ww = document.body.clientWidth;
+			if (ww < 700) {
+				element.classList.add("text-center");
 			}
 		}
 
 		function openNav() {
-		    document.getElementById("mySidenav").style.width = "100%";
-		    document.getElementById("content").style.opacity = "0";
-		    document.getElementById("content").style.overflowY = "hidden";
-		 	document.getElementById("content").style.height = "500px";
-		   // document.getElementById("text-nav").style.transition = "2s";
-		    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-		    document.getElementById("text-nav").style.opacity = "1";
-		    document.getElementById("text-nav").style.style.fontSize = "20px";
-		   	
+			document.getElementById("mySidenav").style.width = "100%";
+			document.getElementById("content").style.opacity = "0";
+			document.getElementById("content").style.overflowY = "hidden";
+			document.getElementById("content").style.height = "500px";
+			// document.getElementById("text-nav").style.transition = "2s";
+			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			document.getElementById("text-nav").style.opacity = "1";
+			document.getElementById("text-nav").style.style.fontSize = "20px";
+
 		}
 
 		function closeNav() {
-			document.getElementById("text-nav").style.opacity ="0";		    
-		    document.getElementById("mySidenav").style.width = "0%";
-		    document.getElementById("content").style.opacity = "1";
-		    document.getElementById("content").style.height = "auto";
-		    document.body.style.backgroundColor = "white";
+			document.getElementById("text-nav").style.opacity = "0";
+			document.getElementById("mySidenav").style.width = "0%";
+			document.getElementById("content").style.opacity = "1";
+			document.getElementById("content").style.height = "auto";
+			document.body.style.backgroundColor = "white";
 		}
 	</script>
 </head>
+
 <body onload="myFunction();">
-	
+
 	<div class="wrap-container" id="content">
 		<div class="container">
 
-		    <nav class="navbar navbar-expand-sm navbar-light">
-		        <a href="index.html" class="navbar-brand">Michael2002 Portfolio</a>
-		        <div class="navbar-collapse">
-		          <ul class="navbar-nav ml-auto">
-		            <li><a href="index.html" class="nav-link">Home</a></li>
-					<li><a href="certificate.html" class="nav-link">Certificate</a></li>
-					<li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-					<li><a href="skill.html" class="nav-link">Skill</a></li>
-					<!-- <li><a href="about.html" class="nav-link">About</a></li> -->
-					<li><a href="contact.html" class="nav-link active">Contact</a></li>
-		          </ul>
-		        </div>
-		    </nav>
+			<nav class="navbar navbar-expand-sm navbar-light">
+				<a href="index.html" class="navbar-brand">Michael2002 Portfolio</a>
+				<div class="navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li><a href="index.html" class="nav-link">Home</a></li>
+						<li><a href="certificate.html" class="nav-link">Certificate</a></li>
+						<li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+						<li><a href="skill.html" class="nav-link">Skill</a></li>
+						<!-- <li><a href="about.html" class="nav-link">About</a></li> -->
+						<li><a href="contact.html" class="nav-link active">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
 
-			<div class="row row-padding  text-center">
+			<div class="row row-padding text-center">
 				<div class="col-md-6 offset-md-3">
-					<h3>Contact</h3>
+					<h2>Contact</h2>
 					<p>Hello, I am Michael Natanael and you can find me right here</p>
 				</div>
+
+				<div class="showcase">
+					<a href="https://github.com/michael2002porto" target="_blank">
+						<img class="full" src="./contact_files/github.jpg">
+					</a>
+				</div>
+
+				<div class="showcase">
+					<a href="http://youtube.com/@natanaelmichael" target="_blank">
+						<img class="full" src="./contact_files/youtube.png">
+					</a>
+				</div>
+
+				<!-- <div class="showcase">
+				<a href="http://line.me/ti/p/~natanaelmichael" target="_blank">
+					<img class="full" src="./contact_files/line.jpg">
+				</a>
+			</div> -->
+
+				<div class="showcase">
+					<a href="https://www.instagram.com/natanaelmichael/" target="_blank">
+						<img class="full" src="./contact_files/ig.jpg">
+					</a>
+				</div>
+
+				<div class="showcase">
+					<a href="https://api.whatsapp.com/send?phone=628974132561" target="_blank">
+						<img class="full" src="./contact_files/WA.jpg">
+					</a>
+				</div>
+
+				<div class="showcase">
+					<a href="https://mailto:mnatanael87@gmail.com" target="_blank">
+						<img class="full" src="./contact_files/gmail.jpg">
+					</a>
+				</div>
+
 			</div>
 
 		</div>
 
 	</div>
 
-	<div class="showcase no-padding">
-		<a href="https://github.com/michael2002porto" target="_blank">
-			<img class="full" src="./contact_files/github.jpg">
-		</a>
-	</div>
 
-	<div class="showcase no-padding">
-		<a href="http://line.me/ti/p/~natanaelmichael" target="_blank">
-			<img class="full" src="./contact_files/line.jpg">
-		</a>
-	</div>
-
-	<div class="showcase no-padding">
-		<a href="https://www.instagram.com/natanaelmichael/" target="_blank">
-			<img class="full" src="./contact_files/ig.jpg">
-		</a>
-	</div>
-
-	<div class="showcase no-padding">
-		<a href="https://api.whatsapp.com/send?phone=628974132561" target="_blank">
-			<img class="full" src="./contact_files/WA.jpg">
-		</a>
-	</div>
-
-	<div class="showcase no-padding">
-		<a href="https://mailto:mnatanael87@gmail.com" target="_blank">
-			<img class="full" src="./contact_files/gmail.jpg">
-		</a>
-	</div>
-	
-
-<!--footer-->
+	<!--footer-->
 	<div class="footer text-center">
 		Copyright © 2024 Michael Natanael
 	</div>
 
 
 
-</body></html>
+</body>
+
+</html>
