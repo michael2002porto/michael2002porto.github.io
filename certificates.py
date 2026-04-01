@@ -1,6 +1,6 @@
 import os
 import gdown
-import fitz  # Ini adalah PyMuPDF
+import fitz  # Ini PyMuPDF
 
 # --- KONFIGURASI FOLDER ---
 PDF_DIR = "assets/pdf/certificates"
