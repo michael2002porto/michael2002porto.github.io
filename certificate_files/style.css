@@ -517,3 +517,14 @@ audio {
         width: 100%;
     }
 }
+
+.cert-hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.cert-hover:hover {
+    transform: translateY(-5px); /* Sedikit naik saat di-hover */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important;
+    filter: brightness(90%);
+}
